@@ -85,7 +85,7 @@ public class Main {
      */
     public static boolean checkForDoubles(String str) {
         if (str == null) {
-            return false; // null이면 같은 대문자 반복 없음
+            return false;
         }
         return str.matches(".*([A-Z]).*\\1.*");
     }
